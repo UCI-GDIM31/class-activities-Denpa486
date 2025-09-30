@@ -2,9 +2,11 @@
 ## Devlogs
 ### W1
 Write your W1 activity Devlog here.
-
+For this class I learn about how to connect Visual Studio and Unity. Hello World
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+###
+my Devlogs. Hello World
 
 ## Open-Source Assets
 ### W1

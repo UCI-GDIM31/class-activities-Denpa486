@@ -555,7 +555,7 @@ MonoBehaviour:
   ballRenderer: {fileID: 488097280}
   _rigidbody: {fileID: 488097279}
   _speedMultiplier: 1
-  _speedThreshold: 10
+  _speedThreshold: 3
 --- !u!58 &488097278
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1191,10 +1191,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 18
   m_fontSizeBase: 30
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1346,7 +1346,7 @@ MonoBehaviour:
   ballRenderer: {fileID: 999995159}
   _rigidbody: {fileID: 999995158}
   _speedMultiplier: 1
-  _speedThreshold: 10
+  _speedThreshold: 2
 --- !u!58 &999995157
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1715,7 +1715,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 
-  m_isRightToLeft: 1
+  m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
@@ -2361,7 +2361,7 @@ MonoBehaviour:
   _pointsText: {fileID: 980115520}
   _speechText: {fileID: 1520169577}
   _maxHealth: 5
-  _destroyCatWhenDead: 0
+  _destroyCatWhenDead: 1
 --- !u!1 &1756818710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2573,10 +2573,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 18
   m_fontSizeBase: 30
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -2796,7 +2796,7 @@ MonoBehaviour:
   ballRenderer: {fileID: 2091636472}
   _rigidbody: {fileID: 2091636471}
   _speedMultiplier: 1
-  _speedThreshold: 10
+  _speedThreshold: 2
 --- !u!1 &2142623056
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,9 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
  The error says there is a grammar error, here it need a semicolon to end the statement.
 my Devlogs. Hello World
 
+### W3 Table 19
+Because the ratio between sanity and brightness of light is positive, which means sanity,directly modifies the light component in the scene, so it doesn’t need to return anything. Just change body function of the input is enough.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

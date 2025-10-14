@@ -18,6 +18,8 @@ Because the ratio between sanity and brightness of light is positive, which mean
 
 Metaphor: Class can be a blueprint of a machine, component is the actual machines built, and with methods, each machines represent their function.
 
+There is a code letting the ball get brighter, but none of the code reduce or limit the lightness.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

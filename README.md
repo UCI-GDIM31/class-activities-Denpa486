@@ -16,6 +16,8 @@ my Devlogs. Hello World
 ### W3 Table 19
 Because the ratio between sanity and brightness of light is positive, which means sanity,directly modifies the light component in the scene, so it doesn’t need to return anything. Just change body function of the input is enough.
 
+Metaphor: Class can be a blueprint of a machine, component is the actual machines built, and with methods, each machines represent their function.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

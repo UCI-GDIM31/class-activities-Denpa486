@@ -20,6 +20,9 @@ Metaphor: Class can be a blueprint of a machine, component is the actual machine
 
 There is a code letting the ball get brighter, but none of the code reduce or limit the lightness.
 
+### W4 Table 19
+Line 17 define the member variable _isGrounded using type bool, aim to stores a true or false value to make later decision when player is pressing on specific bottom. Line 28 is a if statement that detect if the player is pressing space and when _isGround is true, execute later codes. In line 32 it set _isGround as false when the cat already on air (the prior codes are running) to prevent the cat from going too high if players click the space continuously. 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

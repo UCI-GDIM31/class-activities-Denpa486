@@ -24,7 +24,7 @@ There is a code letting the ball get brighter, but none of the code reduce or li
 Line 17 define the member variable _isGrounded using type bool, aim to stores a true or false value to make later decision when player is pressing on specific bottom. Line 28 is a if statement that detect if the player is pressing space and when _isGround is true, execute later codes. In line 32 it set _isGround as false when the cat already on air (the prior codes are running) to prevent the cat from going too high if players click the space continuously. 
 
 ### answer question
-1.I add cat and soccerball as rigid body, because both of the objects have to active and interact with each other and objects in the game. I make the goal to check Is Trigger on because it need to detect whether the ball gets into it and record points.
+1.I add cat and soccerball as rigid body, because both of the objects have to active and hit with each other and objects in the game. I make the goal to check Is Trigger on because it need to detect whether the ball gets into it and record points.
 
 2.The first time I run the game the cat rolls around and falling from the sky because the object is not still in the scene. So the first thing I did is freeze the rotation x and z for the cat and it goes well. Another problem I meet is that soccerball and cat falls a little bit and sink into the ground. I fixed them by larger the collider. Through the larger collider both of the objects stand on the ground.
 

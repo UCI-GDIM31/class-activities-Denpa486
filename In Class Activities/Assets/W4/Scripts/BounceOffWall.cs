@@ -6,7 +6,7 @@ public class BounceOffWall : MonoBehaviour
     [SerializeField] private float _bounceForce = 6.0f;
 
     // ------------------------------------------------------------------------
-    private void OnTriggerExit(Collider other)
+    [SerializeField]private void OnTriggerExit(Collider other)
     {
         if(other.gameObject.tag.Equals("Wall"))
         {

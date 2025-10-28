@@ -35,12 +35,15 @@ When moving a GameObject, it is actually modifying its Transform. So when access
 ###
 Notes: 
 What member variable(s) does this class need?
+###
 Move speed, AI navi mesh agent, Animator, gravity
-
+###
 What method(s) does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?
-Start and update methods should be provided by Unity. The methods should include move to target (for deer it should also be provided by unity AI navi mesh), play animation and a collision method to prevent object pass through each others. 
-
+###
+Start and update methods should be provided by Unity. The methods should include move to target (for deer it should also be provided by unity AI navi mesh), play animation and a collision method to prevent object pass through each others. ###
+###
 What should the method(s) do?
+###
 The methods should direct gameObjects to do what they purpose. For example direct the deer to the right place and play correct animation for each animals.
 
 ## Open-Source Assets

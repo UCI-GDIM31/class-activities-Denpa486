@@ -28,6 +28,21 @@ Line 17 define the member variable _isGrounded using type bool, aim to stores a 
 
 2.The first time I run the game the cat rolls around and falling from the sky because the object is not still in the scene. So the first thing I did is freeze the rotation x and z for the cat and it goes well. Another problem I meet is that soccerball and cat falls a little bit and sink into the ground. I fixed them by larger the collider. Through the larger collider both of the objects stand on the ground.
 
+### W5 Table 19
+Question: How do Transform Component and gameObject corporate with each other?
+When moving a GameObject, it is actually modifying its Transform. So when access transform.position, we are reading or changing where the GameObject is in the world.
+
+###
+Notes: 
+What member variable(s) does this class need?
+Move speed, AI navi mesh agent, Animator, gravity
+
+What method(s) does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?
+Start and update methods should be provided by Unity. The methods should include move to target (for deer it should also be provided by unity AI navi mesh), play animation and a collision method to prevent object pass through each others. 
+
+What should the method(s) do?
+The methods should direct gameObjects to do what they purpose. For example direct the deer to the right place and play correct animation for each animals.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

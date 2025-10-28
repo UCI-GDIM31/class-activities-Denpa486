@@ -31,6 +31,7 @@ public class CatW5 : MonoBehaviour
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
+
         //
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip
@@ -48,6 +49,14 @@ public class CatW5 : MonoBehaviour
 
 
         // STEP 1 & 2 ---------------------------------------------------------
+        float inputVertical = Input.GetAxis("Vertical");
+        if (_flipWSControls)
+        {
+            inputVertical = -inputVertical;
+        }
+        translation += Vector3.forward * inputVertical;
+        transform.Translate(translation * _moveSpeed * Time.deltaTime);
+        // ---------------------------------------------------------------------
 
         float rotation = Input.GetAxis("Horizontal") * _turnSpeed * Time.deltaTime;
         transform.Rotate(0, rotation, 0);
@@ -60,5 +69,6 @@ public class CatW5 : MonoBehaviour
         {
             _animator.SetBool(_isWalkingName, false);
         }
+
     }
 }

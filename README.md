@@ -46,7 +46,7 @@ What should the method(s) do?
 ###
 The methods should direct gameObjects to do what they purpose. For example direct the deer to the right place and play correct animation for each animals.
 
-### W6 Table 19 Math (part 4)
+### W6 Table 19 Math (part 3)
 1. [https://docs.google.com/document/d/13WL1faOUeHHIt5U-4Nu450rY6-oTy8zhNi828PVl7UI/edit?pli=1&tab=t.0#heading=h.jo9rncec39bd](URL)
 ###
 2. plan to create the BatW6 class: We need a way to control speed. 

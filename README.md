@@ -60,6 +60,8 @@ Use Transform to store the position of player.
 Use method public void EnableChase, class enabled=true/false to decide which bat should chase the player and which should not.
 
 ### W7 Table 19
+[https://docs.google.com/document/d/1Big5iCIqdYzUKfa1Z3fyaYFgzxHEucc_XLNDuWF1kiQ/edit?usp=sharing]
+The part I plan: Animation, Physics
 
 
 ## Open-Source Assets

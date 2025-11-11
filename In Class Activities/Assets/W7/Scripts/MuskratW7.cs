@@ -43,10 +43,17 @@ public class MuskratW7 : MonoBehaviour
         // Transform.TransformDirection() https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.TransformDirection.html
         // Transform.RotateAround () https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.RotateAround.html
         //
-        // You might want to look below Step 3 for an example :D
-        
+        // You might want to look below Step 3 for an example :
+   
+
         float leftright = Input.GetAxis("Horizontal");
-        
+        Vector3 up = transform.TransformDirection(Vector3.up);
+        transform.RotateAround(
+            transform.position,
+            up,
+            leftright * _rotationSpeed * Time.deltaTime
+        );
+
 
 
         // STEP 3 -------------------------------------------------------------
@@ -84,19 +91,22 @@ public class MuskratW7 : MonoBehaviour
         // Hint: you'll need to multiply leftright by one of the static Vector3 values:
         //      https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.html
         //      like up, left, right, or forward.
+        transform.Rotate(Vector3.up * _rotationSpeed * Time.deltaTime);
 
         float leftright = Input.GetAxis("Horizontal");
 
         // STEP 1 -------------------------------------------------------------
+        
 
 
-        // STEP 2 -------------------------------------------------------------
-        float movement = Input.GetAxis("Vertical");
+
+            // STEP 2 -------------------------------------------------------------
+            float movement = Input.GetAxis("Vertical");
 
         // This line of code is incorrect. 
         // Replace it with a different line of code that uses 'movement' to
         //      move the Muskrat forwards and backwards.
-        transform.position += movement * Vector3.forward * _moveSpeed * Time.deltaTime;
+        transform.Translate(movement * Vector3.forward * _moveSpeed * Time.deltaTime);
 
         // STEP 2 -------------------------------------------------------------
 

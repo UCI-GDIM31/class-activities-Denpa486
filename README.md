@@ -62,6 +62,9 @@ Use method public void EnableChase, class enabled=true/false to decide which bat
 ### W7 Table 19
 [https://docs.google.com/document/d/1Big5iCIqdYzUKfa1Z3fyaYFgzxHEucc_XLNDuWF1kiQ/edit?usp=sharing]
 The part I plan: Animation, Physics
+###
+What was wrong with the code in Step 2: the code transform.position is for locating global space so it often use to teleporting or snapping the gameObject in the large map. transform.Translate can give a vector for the gameObject in both global and local space. As a result when using transform.Translate allow the gameObject walk around the bubble in a correct way because the gameObject move in it's own direction but not the world direction.
+
 
 
 ## Open-Source Assets

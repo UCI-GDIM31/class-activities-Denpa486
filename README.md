@@ -65,7 +65,8 @@ The part I plan: Animation, Physics
 ###
 What was wrong with the code in Step 2: the code transform.position is for locating global space so it often use to teleporting or snapping the gameObject in the large map. transform.Translate can give a vector for the gameObject in both global and local space. As a result when using transform.Translate allow the gameObject walk around the bubble in a correct way because the gameObject move in it's own direction but not the world direction.
 
-
+### W8 Table 1 (2D final project)
+[https://docs.google.com/document/d/1OcRnmpJGvT2ei0si4KPq7VGxaeAKZk2t8GYKJxgefwg/edit?usp=sharing]
 
 ## Open-Source Assets
 ### W1

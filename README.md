@@ -68,6 +68,9 @@ What was wrong with the code in Step 2: the code transform.position is for locat
 ### W8 Table 1 (2D final project)
 [https://docs.google.com/document/d/1OcRnmpJGvT2ei0si4KPq7VGxaeAKZk2t8GYKJxgefwg/edit?usp=sharing]
 
+### W9 Table 1 (2D final project)
+[https://docs.google.com/document/d/1jeO-JsINyjAlpt7JRQJPkYuQHfRKsOL3UpSXaxJuU5A/edit?tab=t.0]
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
